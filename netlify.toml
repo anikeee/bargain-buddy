@@ -1,0 +1,13 @@
+[build]
+  # Set the build command here
+  command = "npm run build"
+
+  # Set the build output directory
+  publish = "build"
+
+  # Set the base directory for the project
+  base = "."
+
+  # Set the build environment
+  [build.environment]
+    CI = "false"
